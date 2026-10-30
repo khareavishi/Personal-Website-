@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #040508; }
+::-webkit-scrollbar-thumb { background: #1B293F; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #D4AF37; }
+
+.flight-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(139, 155, 180, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(139, 155, 180, 0.04) 1px, transparent 1px);
+}
